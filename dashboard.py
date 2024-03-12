@@ -51,8 +51,8 @@ def create_byweather_df(df):
     }).reset_index() 
     return weather_df
 
-day_clean_df = pd.read_csv("main_data.csv")
-hour_df = pd.read_csv("hour.csv")
+day_clean_df = pd.read_csv("c:\dashboard/main_data.csv")
+hour_df = pd.read_csv("c:\dashboard\hour.csv")
 
 day_clean_df["dteday"] = pd.to_datetime(day_clean_df["dteday"])
 hour_df["dteday"] = pd.to_datetime(hour_df["dteday"])
