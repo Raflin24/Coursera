@@ -9,9 +9,6 @@ Project ini merupakan proyek Analisis Data pada dataset Bike Sharing. Hasil anal
 streamlit run dashboard.py
 ```
 
-## Streamlit Cloud 
-Link Streamlit Rafli: http://localhost:8501/
-
 ## Directory
 
 - `/dashboard`: Berisikan file utama yang ditampilkan untuk dashboard 
